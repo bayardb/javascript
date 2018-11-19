@@ -1,4 +1,5 @@
 
+
 var num1 = prompt('Informe o primeiro numero da operação:');
 var operador = prompt('Infrome qual operação deseja realizar (soma ou subtração)');
 var num2 = prompt('Informe o segundo numero da operação:');
@@ -24,7 +25,7 @@ function opera(num1,operador,num2)
 {
 if (operador == 'inv')
 {
-break;
+ return('Nada feito');
 }
 else if (operador == 'TRUE')
 {
@@ -36,4 +37,5 @@ return(num1 - num2)
 };
 
 document.write('O resultado da função eh:'+ opera(num1,operador,num2));
+
 
