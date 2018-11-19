@@ -3,8 +3,8 @@ var num1 = prompt('Informe o primeiro numero da operação:');
 var operador = prompt('Infrome qual operação deseja realizar (soma ou subtração)');
 var num2 = prompt('Informe o segundo numero da operação:');
 
-num1 = parseInt(num1)
-num2 = parseInt(num2)
+num1 = parseFloat(num1)
+num2 = parseFloat(num2)
 
 if (operador == 'soma' || operador == 'Soma')
 {
